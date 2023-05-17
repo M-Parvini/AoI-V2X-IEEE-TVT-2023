@@ -9,12 +9,16 @@
      3GPP, TS 36.885, "Study on LTE-based V2X Services".
 
 # prerequisites:
+
 python 3.7 or higher
+
 PyTorch 1.7 or higher + CUDA
+
 It is recommended that the latest drivers be installed for the GPU.
 ---------------------------------------------------------------------------------------
 
 In order to run the code:
+
 ***
 Please make sure that you have created the following directories:
 	1) ...\Classes\tmp\ddpg
@@ -26,6 +30,7 @@ The final results and the network weights will be saved in these directories.
 1- Change the number of vehicles, platoon sizes, and intra-platoon distance
 
 2- Once you run the code, simulation results will be saved into the directory: 
+
    ...\model\marl_model. You can import these data wherever you want (Matlab, python, etc.) 
    and plot the results. Furthermore, the weights of the neural networks will be saved into 
    the directory: ...\Classes\tmp\ddpg. 
