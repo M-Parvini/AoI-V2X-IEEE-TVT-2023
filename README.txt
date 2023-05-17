@@ -1,15 +1,15 @@
 
----------------------------------------------------------------------------------------
-Simulation code of the paper:
-    "AoI-Aware Resource Allocation for Platoon-Based C-V2X Networks via Multi-Agent 
-                        Multi-Task Reinforcement Learning"
+# Simulation code of the paper:
+    "AoI-Aware Resource Allocation for Platoon-Based C-V2X Networks via Multi-Agent Multi-Task Reinforcement Learning"
 
-Written by  : Mohammad Parvini, M.Sc. student at Tarbiat Modares University.
+### If you want to cite: 
+>M. Parvini, M. R. Javan, N. Mokari, B. Abbasi and E. A. Jorswieck, "AoI-Aware Resource Allocation for Platoon-Based C-V2X Networks via Multi-Agent Multi-Task Reinforcement Learning," in IEEE Transactions on Vehicular Technology, doi: 10.1109/TVT.2023.3259688.
 ---------------------------------------------------------------------------------------
----> We have built our simulation following the urban case defined in Annex A of 
+
+# Simulation environment is based on the urban case defined in Annex A of 
      3GPP, TS 36.885, "Study on LTE-based V2X Services".
 ---------------------------------------------------------------------------------------
-prerequisites:
+# prerequisites:
 python 3.7 or higher
 PyTorch 1.7 or higher + CUDA
 It is recommended that the latest drivers be installed for the GPU.
